@@ -1,0 +1,98 @@
+{
+  "compiled_package_id": "openff-toolkit",
+  "evidence": {
+    "core_skills": [
+      "openff-toolkit-examples-and-tutorials",
+      "openff-toolkit-inputs-and-modeling",
+      "openff-toolkit-users",
+      "openff-toolkit-api-and-scripting",
+      "openff-toolkit-templates",
+      "openff-toolkit-build-and-install"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/openff-toolkit-examples-and-tutorials.md",
+      "skills/.evidence/openff-toolkit-inputs-and-modeling.md",
+      "skills/.evidence/openff-toolkit-users.md",
+      "skills/.evidence/openff-toolkit-api-and-scripting.md",
+      "skills/.evidence/openff-toolkit-templates.md",
+      "skills/.evidence/openff-toolkit-build-and-install.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Use explicit source/test directories; default auto-discovery does not pick up namespaced roots in this repo.",
+      "Top-level markdown files (for example README.md) live outside docs/."
+    ],
+    "package_name": "openff-toolkit",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "openff/toolkit"
+    ],
+    "test_dirs": [
+      "openff/toolkit/_tests"
+    ],
+    "tutorial_dirs": [
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit",
+  "validation": {
+    "core_skills_checked": [
+      "openff-toolkit-examples-and-tutorials",
+      "openff-toolkit-inputs-and-modeling",
+      "openff-toolkit-advanced-topics",
+      "openff-toolkit-users",
+      "openff-toolkit-api-and-scripting",
+      "openff-toolkit-templates"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-advanced-topics/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-advanced-topics/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-users/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openff-toolkit-openff-toolkit/skills/openff-toolkit-templates/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "openff-toolkit-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 58,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}

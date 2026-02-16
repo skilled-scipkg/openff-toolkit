@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "openff-toolkit-examples-and-tutorials",
+    "openff-toolkit-inputs-and-modeling",
+    "openff-toolkit-users",
+    "openff-toolkit-api-and-scripting",
+    "openff-toolkit-templates",
+    "openff-toolkit-build-and-install"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/openff-toolkit-examples-and-tutorials.md",
+    "skills/.evidence/openff-toolkit-inputs-and-modeling.md",
+    "skills/.evidence/openff-toolkit-users.md",
+    "skills/.evidence/openff-toolkit-api-and-scripting.md",
+    "skills/.evidence/openff-toolkit-templates.md",
+    "skills/.evidence/openff-toolkit-build-and-install.md"
+  ]
+}
